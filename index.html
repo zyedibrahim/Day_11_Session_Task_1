@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-11 Task 1 Survey-Forms </title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- end CSS -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <!-- end js script -->\
+
+<style>
+    .container .resize{
+
+        resize: none;
+    }
+
+
+
+    .container .card .card-header{
+    background-color: #FF9900 ;
+    }
+
+
+    .btn{
+        background-color: #FF9900;
+    }
+
+
+</style>
+
+
+
+</head>
+<body class="bg-primary">
+  
+
+    <div class="container mb-5">
+
+<div class="card mt-5">
+<div class="card-header  text-dark text-center
+">
+    Survey-Forms
+</div>
+
+    <div class="card-body">
+
+    <div class="row">
+
+        <div class="col-sm-6">
+              <div class="mb-3">
+
+                <label class="form-label" for="Name">Name</label>
+                <input class="form-control" placeholder="Enter a FullName" type="text" name="Name" id="Name">
+
+              </div>
+        </div>
+
+
+        <div class="col-sm-6">
+            <div class="mb-3">
+
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control" placeholder="Enter a Email" type="email" name="email" id="email">
+
+            </div>
+      </div>
+        
+        </div>
+<!-- first row ending -->
+
+
+<div class="row">
+<div class="col-12">
+    <div class="mb-3 ">
+      <label for="first_time" class="form-label"> Is This First Time You Are Using Our Product & Service </label>
+
+      <div class="form-check">
+          <input type="radio" class="form-check-input " name="first_time_choose" id="first_time_yes" >
+<label for="first_time_yes" class="" > Yes</label>
+      
+      </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" nam  e="first_time_choose" id="first_time_No" >
+<label for="first_time_No" class="" > No</label>
+    </div>
+
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+<!-- second row end -->
+
+
+
+
+<div class="row">
+
+    <div class="col-12">
+
+    <div class="mb-3">
+
+        <label class="form-label" for="know_about">How Do You Know About Us !</label>
+
+        <div class="form-check ">
+
+            <input type="radio" class=" form-check-input" name="choose_Know" id="social_media">
+             <label class="form-check-label ms-1 " for="social_media">Social Media</label>
+        </div>
+
+             <div class="form-check" >
+             <input type="radio" class=" form-check-input" name="choose_Know" id="Friends">
+             <label class="form-check-label ms-1 " for="Friends">Friends</label>
+             </div>
+    
+      
+        <div class="form-check" >
+             <input type="radio" class=" form-check-input" name="choose_Know" id="others">
+             <label class="form-check-label ms-1 " for="others">Others</label>
+             </div>
+    </div>      
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!-- third row end -->
+
+
+
+
+    <div class="row">
+
+        <div class="col-12">
+    
+        <div class="mb-3">
+    
+            <label class="form-label" for="Satisfied">How Satisfied Are You Our Company Overall</label>
+    
+            <div class="form-check ">
+    
+                <input type="radio" class=" form-check-input" name="choose_satisfied" id="Satisfied">
+                 <label class="form-check-label ms-1 " for="Satisfied">Satisfied</label>
+            </div>
+    
+                 <div class="form-check" >
+                 <input type="radio" class=" form-check-input" name="choose_satisfied" id="Undecided">
+                 <label class="form-check-label ms-1 " for="Undecided">Undecided</label>
+                 </div>
+        
+          
+            <div class="form-check" >
+                 <input type="radio" class=" form-check-input" name="choose_satisfied" id="UnSatisfied">
+                 <label class="form-check-label ms-1 " for="UnSatisfied">UnSatisfied</label>
+                 </div>
+        </div>      
+            </div>
+    
+    
+    
+    
+    
+        </div>
+
+
+
+    <!-- forth row end -->
+
+
+
+<div class="row">
+
+    <div class="col-12">
+
+        <div class="mb-3">
+            <label for="Suggestion" class="form-label">Do You Have Any Suggestion To Improve Our Service</label>
+             
+            <textarea placeholder="write Any Suggestions" class="form-control resize" name="suggestion" id="Suggestion" cols="10" rows="5" ></textarea>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+</div>
+
+<!-- suggestion box end -->
+
+
+
+<div class="mb-3">
+
+<div class="d-grid">
+    <button class="btn ">Sumbit</button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</body>
+</html>
